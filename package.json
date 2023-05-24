@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tekgeek88/node-example-app/issues"
   },
-  "homepage": "https://github.com/tekgeek88/node-example-app#readme"
+  "homepage": "https://github.com/tekgeek88/node-example-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
