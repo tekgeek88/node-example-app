@@ -1,4 +1,4 @@
-job('NodeJS example') {
+job('NodeJS Docker example') {
     label('Agent1-Ubuntu')
     scm {
         git('https://github.com/tekgeek88/node-example-app.git') {  node -> // is hudson.plugins.git.GitSCM
