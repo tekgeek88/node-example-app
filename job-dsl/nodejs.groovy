@@ -1,4 +1,5 @@
 job('NodeJS example') {
+    label('Agent1-Ubuntu')
     scm {
         git('https://github.com/tekgeek88/node-example-app.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('DSL User')
